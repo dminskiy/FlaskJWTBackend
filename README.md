@@ -2,7 +2,7 @@
 
 This package contains a basic Flask based API with JWT support. As for the data storage, by default, the API exects that MongoDB is running locally at port 27017.
 
-## Data format:
+## Data format
 
 This API stores a collection of Users in the following format:
 
@@ -137,7 +137,7 @@ JSON: {"msg": "List of all items. User: [username, type: string].",
 #### Error Statuses: 
 400, 405
 
-### <server_address>/users DEBUG ENDPOINT.
+### <server_address>/users DEBUG ENDPOINT
 This endpoint allows listing all users and their items.
 #### Expected Request: 
 Request Type: GET
@@ -171,7 +171,7 @@ JSON: {"msg": "List of users.",
 #### Error Statuses: 
 400, 405
 
-### <server_address>/ DEBUG ENDPOINT.
+### <server_address>/ DEBUG ENDPOINT
 This endpoint allows checking the connection to the server.
 #### Expected Request: 
 Request Type: GET
@@ -211,7 +211,7 @@ Although the core of the API has been implemented, there are still unimplemented
 
 As for the parts that were not implemented those include: task 4 which was not completed due to the lack of time. Similarly, not all tests were finalised (TODO list can be found in the test_run.py), however this does not imply that the API was not fully tested, tests were completed using the Postman software.
 
-## How to run. Suggested method.
+## How to run? Suggested method
 
 1. Create a Flask project in PyCharm
 2. Install the required dependencies
