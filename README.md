@@ -207,7 +207,9 @@ for further details).
 
 ## Further work
 
-Task 4 was not implemented due to the lack of time and therefore needs attending. Similarly, not all tests were implemented (TODO list can be found in the test_run.py).
+Although the core of the API has been implemented, there are still unimplemented parts such as described later. The idea behind this version is to show my logic of building code architectures and working with different aspects of programming such as code design, error handling, testing and more.
+
+As for the parts that were not implemented those include: task 4 which was not completed due to the lack of time. Similarly, not all tests were finalised (TODO list can be found in the test_run.py).
 
 ## How to run. Suggested method.
 
